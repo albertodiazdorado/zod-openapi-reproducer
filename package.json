@@ -1,0 +1,22 @@
+{
+  "name": "zod-reproducer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc --noEmit --skipLibCheck",
+    "start": "node --experimental-strip-types main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.7.2",
+    "zod": "^3.24.1",
+    "zod-openapi": "^4.1.2"
+  },
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab",
+  "engines": {
+    "node": ">22.0.0"
+  }
+}
